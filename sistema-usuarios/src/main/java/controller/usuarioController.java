@@ -18,7 +18,7 @@ public class usuarioController extends HttpServlet {
 		//capturando o que vem do client
 		String email = req.getParameter("email");
 		//respondendo ao client
-		resp.getWriter().print("olá "+ email );	
+		resp.getWriter().print("\n\n\n\n ola "+ email );	
 		
 	}
 	
